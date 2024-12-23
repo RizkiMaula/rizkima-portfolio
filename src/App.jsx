@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun, faQuestionCircle, faHome, faList, faInfoCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router';
-import Hero from './components/Hero';
-import MdSidebar from './components/MdSidebar';
+import MdSidebar from './components/elements/MdSidebar';
+import Hero from './components/elements/Hero';
 
 const App = () => {
   const [theme] = useTheme();
@@ -17,7 +17,7 @@ const App = () => {
       {/* Sidebar */}
       <MdSidebar />
       {/* Hero */}
-      {/* <div className="grid  grid-rows-1"> */}
+      {/* <div className="grid grid-rows-1"> */}
       <Hero />
       {/* </div> */}
     </div>
@@ -27,7 +27,7 @@ const App = () => {
 export default App;
 
 {
-  /* <div className="py-2 text-left flex items-center  border-2 border-black">
+  /* <div className="flex items-center py-2 text-left border-2 border-black">
 {' '}
 <label className="swap swap-rotate ">
   <input
@@ -53,7 +53,7 @@ export default App;
 }
 
 {
-  /* <div className="py-2 text-left flex items-center  border-2 border-black">
+  /* <div className="flex items-center py-2 text-left border-2 border-black">
 {' '}
 <label className="swap swap-rotate ">
   <input
