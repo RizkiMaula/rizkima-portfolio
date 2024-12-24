@@ -1,19 +1,20 @@
 import useTheme from '../../hooks/useTheme';
+import MdSidebar from './MdSidebar';
 
 // eslint-disable-next-line react/prop-types
-const NonsrollableLayout = ({ content }) => {
+const NonsrollableLayout = ({ sidebar = <MdSidebar />, content }) => {
   const [theme] = useTheme();
   return (
     <div
       data-theme={theme}
       className="grid grid-cols-[20%_80%] min-h-screen "
     >
-      {content}
+      {/* {content} */}
       {/* Sidebar */}
-      {/* <MdSidebar /> */}
+      {sidebar}
       {/* Hero */}
       {/* <div className="grid grid-rows-1"> */}
-      {/* <Hero /> */}
+      {content}
       {/* </div> */}
     </div>
   );

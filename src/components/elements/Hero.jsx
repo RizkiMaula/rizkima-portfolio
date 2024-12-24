@@ -8,7 +8,7 @@ const Hero = () => {
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
             className="max-w-sm rounded-lg shadow-2xl"
           />
-          <div className="border-2 border-black flex flex-col w-[50%]">
+          <div className=" flex flex-col w-[50%]">
             <h1 className="text-5xl font-bold">
               Hi! I am <b className="text-primary">Rizki Maulana</b>
             </h1>

@@ -3,21 +3,22 @@ import { faEnvelope, faHome, faInfoCircle, faList, faQuestionCircle } from '@for
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router';
 
-const MdSidebar = () => {
+// eslint-disable-next-line react/prop-types
+const MdSidebar = ({ paddingY = 'py-3' }) => {
   return (
-    // <div className="sticky top-0 h-screen px-4 py-3 bg-gray-800 text-white">
-    <div className="md:flex flex-col justify-between min-h-screen px-4 py-3 text-primary hidden">
+    // <div className="sticky top-0 h-screen px-4 py-3 text-white bg-gray-800">
+    <div className={`flex-col justify-between hidden min-h-screen px-4 ${paddingY} md:flex text-primary`}>
       <h1 className="text-3xl text-bold ">RM</h1>
 
-      <ul className="w-full menu rounded-box  ">
+      <ul className="w-full menu rounded-box ">
         <li className="py-2 text-left">
-          <a href="#">
+          <Link to={'/'}>
             <FontAwesomeIcon
               className="w-5 h-5"
               icon={faHome}
             />
             Home
-          </a>
+          </Link>
         </li>
         <li className="py-2 text-left">
           <a>
@@ -57,7 +58,7 @@ const MdSidebar = () => {
         </li>
       </ul>
       <div>
-        <div className="flex flex-col justify-center gap-4 w-5">
+        <div className="flex flex-col justify-center w-5 gap-4">
           <div
             className="tooltip"
             data-tip="X"
@@ -97,7 +98,7 @@ const MdSidebar = () => {
           </div>
         </div>
         <div className="divider"></div>
-        <p className="text-center text-sm">
+        <p className="text-sm text-center">
           Made with ❤️ by{' '}
           <Link
             to="https://daisyui.com/"
