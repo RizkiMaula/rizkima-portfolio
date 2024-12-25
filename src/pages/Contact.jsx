@@ -1,9 +1,8 @@
+import NonsrollableLayout from '../components/elements/NonscrollLayout';
+import ContactMe from '../components/elements/ContactMe';
+
 const Contact = () => {
-  return (
-    <div>
-      <h1>Ini Contact Me</h1>
-    </div>
-  );
+  return <NonsrollableLayout content={<ContactMe />} />;
 };
 
 export default Contact;
