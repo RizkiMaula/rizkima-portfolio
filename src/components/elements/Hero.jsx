@@ -13,7 +13,14 @@ const Hero = () => {
               Hi! I am <b className="text-primary">Rizki Maulana</b>
             </h1>
             <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button className="btn btn-primary">Get Started</button>
+            <button
+              onClick={() => {
+                window.location.href = '/about';
+              }}
+              className="btn btn-primary"
+            >
+              My Profile
+            </button>
           </div>
         </div>
       </div>

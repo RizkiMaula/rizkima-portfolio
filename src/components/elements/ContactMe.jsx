@@ -6,8 +6,8 @@ const ContactMe = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="flex flex-col gap-6 p-6 border-2 rounded-2xl bg-secondary-content text-tertiary">
-          <h1 className="text-3xl ">REACH ME OUT</h1>
+        <div className="flex flex-col gap-6 p-6 shadow rounded-2xl bg-base-200 text-tertiary">
+          <h1 className="text-3xl font-bold">REACH ME OUT</h1>
           <p>Jakarta, Indonesia</p>
           <h1>
             <FontAwesomeIcon icon={faEnvelope} /> Rmaulana12321@gmail.com

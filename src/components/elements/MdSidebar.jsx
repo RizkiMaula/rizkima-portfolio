@@ -21,13 +21,13 @@ const MdSidebar = ({ paddingY = 'py-3' }) => {
           </Link>
         </li>
         <li className="py-2 text-left">
-          <a>
+          <Link to={'/about'}>
             <FontAwesomeIcon
               className="w-5 h-5"
               icon={faInfoCircle}
             />
             About
-          </a>
+          </Link>
         </li>
         <li className="py-2 text-left">
           <a>
