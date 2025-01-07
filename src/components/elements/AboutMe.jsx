@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className="min-h-screen hero bg-base-200">
       <div className="flex-col gap-10 hero-content lg:flex-row">
         {/* img */}
-        <div className="flex flex-col w-[50%] gap-4 p-4 text-center border-2 border-blue-200">
+        <div className="flex flex-col w-[50%] gap-4 p-4 text-center">
           <img
             src="https://images.unsplash.com/photo-1725126210190-497eb2cfb6cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="object-cover w-full rounded shadow-2xl h-[289px]"
@@ -20,19 +20,19 @@ const AboutMe = () => {
           </h1>
           <Link
             to={'#'}
-            className="underline btn hover:bg-primary hover:text-white"
+            className="btn hover:bg-primary hover:text-white"
           >
             Download CV <FontAwesomeIcon icon={faDownload} />
           </Link>
         </div>
         {/* content */}
-        <div className="flex flex-col border-2 border-cyan-200 w-[95%]">
+        <div className="flex flex-col w-[95%]">
           {/* information */}
-          <div className="grid grid-cols-1 gap-4 p-4 border-2 md:grid-cols-2 border-ternary">
+          <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2">
             <Link
               target="_blank"
               to={'https://wa.me/6281807963356'}
-              className=" link link-primary"
+              className="text-primary hover:font-bold"
             >
               <FontAwesomeIcon icon={faWhatsapp} /> +62 818-0796-3356
             </Link>
@@ -48,15 +48,15 @@ const AboutMe = () => {
           </div>
           <div className="divider divider-neutral"></div>
           {/* introduction */}
-          <div className="grid grid-cols-1 gap-5 p-1 border-1 border-ternary md:grid-cols-2">
-            <div className="flex flex-col gap-2 p-3 border-2 border-black">
+          <div className="grid grid-cols-1 gap-5 p-1 md:grid-cols-2">
+            <div className="flex flex-col gap-2 p-3">
               <h1 className="font-bold text-primary">Introduction</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eaque perspiciatis debitis doloremque ipsum deleniti aut tempora. Ut dignissimos doloremque voluptas nisi natus a consectetur. Dignissimos optio eaque dolores
                 quae ad.
               </p>
             </div>
-            <div className="flex flex-col gap-2 p-3 border-2 border-black">
+            <div className="flex flex-col gap-2 p-3 ">
               <h1 className="font-bold text-primary">5+ Projects Completed</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil, vel dolor vitae iste, id cum commodi laudantium earum provident soluta architecto, voluptas natus velit ut beatae qui! Incidunt sapiente exercitationem

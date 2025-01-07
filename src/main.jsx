@@ -6,6 +6,8 @@ import Testing from './pages/Testing';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Do from './pages/Do';
 
 const root = document.getElementById('root');
 
@@ -25,8 +27,16 @@ ReactDOM.createRoot(root).render(
         element={<Testing />}
       />
       <Route
+        path="/portfolio"
+        element={<Portfolio />}
+      />
+      <Route
         path="/about"
         element={<About />}
+      />
+      <Route
+        path="/what-can-i-do"
+        element={<Do />}
       />
       <Route
         path="/contact"

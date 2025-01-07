@@ -3,7 +3,10 @@ import MdSidebar from './MdSidebar';
 
 // eslint-disable-next-line react/prop-types
 const NonsrollableLayout = ({ sidebar = <MdSidebar />, content }) => {
-  const [theme] = useTheme();
+  const [theme, setTheme] = useTheme();
+
+  console.log(`dari layout: ${theme}`);
+
   return (
     <div
       data-theme={theme}
