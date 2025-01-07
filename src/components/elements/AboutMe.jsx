@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 const AboutMe = () => {
   return (
     <div className="min-h-screen hero bg-base-200">
-      <div className="flex-col gap-10 hero-content lg:flex-row">
+      <div className="flex-col gap-3 hero-content lg:flex-row">
         {/* img */}
         <div className="flex flex-col w-[50%] gap-4 p-4 text-center">
           <img

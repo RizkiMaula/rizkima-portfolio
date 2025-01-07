@@ -1,9 +1,9 @@
 const Education = () => {
   return (
-    <div className="grid grid-cols-1 p-3 md:grid-cols-2">
-      <div className="flex flex-col items-center justify-center gap-4">
+    <div className="grid grid-cols-1 p-3 gap-4 md:grid-cols-2">
+      <div className="flex flex-col items-center justify-center gap-4 bg-base-200 p-4">
         <h1 className="text-2xl font-bold text-primary">Portfolio</h1>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div className="border-2 border-black w-[15rem] h-[15rem] bg-slate-300"></div>
           <div className="border-2 border-black w-[15rem] h-[15rem] bg-slate-300"></div>
           <div className="border-2 border-black w-[15rem] h-[15rem] bg-slate-300"></div>
@@ -11,7 +11,7 @@ const Education = () => {
         </div>
         <button className="btn btn-secondary">Show More</button>
       </div>
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 bg-base-200 p-4">
         <h1 className="text-2xl font-bold text-primary">Education</h1>
         {/* list */}
         <div className="flex flex-col gap-2 text-justify">
