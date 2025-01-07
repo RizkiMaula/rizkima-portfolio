@@ -4,10 +4,7 @@ import MdSidebar from './MdSidebar';
 const ScrollableLayout = ({ sidebar = <MdSidebar />, content }) => {
   return (
     <div className="grid grid-cols-[20%_80%] min-h-screen">
-      {/* Sidebar */}
       <div className="sticky top-0 h-screen text-white ">{sidebar}</div>
-
-      {/* Hero */}
       <div className="grid grid-rows-1">{content}</div>
     </div>
   );

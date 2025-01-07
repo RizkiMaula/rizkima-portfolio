@@ -16,7 +16,7 @@ const AboutMe = () => {
           />
           <h1 className="text-2xl font-bold text-primary">Rizki Maulana</h1>
           <h1>
-            <span className="font-bold text-primary">Web Developer</span> based in <span>Jakarta</span>
+            <span className="font-bold text-primary">Web Developer</span> based in <span className="font-bold text-primary">Jakarta</span>
           </h1>
           <Link
             to={'#'}
@@ -51,14 +51,14 @@ const AboutMe = () => {
           <div className="grid grid-cols-1 gap-5 p-1 md:grid-cols-2">
             <div className="flex flex-col gap-2 p-3">
               <h1 className="font-bold text-primary">Introduction</h1>
-              <p>
+              <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eaque perspiciatis debitis doloremque ipsum deleniti aut tempora. Ut dignissimos doloremque voluptas nisi natus a consectetur. Dignissimos optio eaque dolores
                 quae ad.
               </p>
             </div>
             <div className="flex flex-col gap-2 p-3 ">
               <h1 className="font-bold text-primary">5+ Projects Completed</h1>
-              <p>
+              <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil, vel dolor vitae iste, id cum commodi laudantium earum provident soluta architecto, voluptas natus velit ut beatae qui! Incidunt sapiente exercitationem
                 animi.
               </p>

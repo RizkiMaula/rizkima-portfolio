@@ -1,10 +1,10 @@
 const DoContent = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 border-4 border-black">
-      <h1>What can I do?</h1>
-      <div className="grid w-full grid-cols-1 gap-2 p-10 mx-auto border-2 border-black md:grid-cols-2 place-items-center">
-        <div className="w-full">
-          <p>
+    <div className="flex flex-col items-center justify-center gap-2">
+      <h1 className="text-2xl font-bold">What Can I Do?</h1>
+      <div className="grid grid-cols-1 gap-2 p-10 md:grid-cols-2 place-items-center">
+        <div className="w-full gap-2 p-3">
+          <p className="text-justify">
             When I was in School, I learned to make a website using HTML, CSS, and JavaScript. When i was in High School, I learned about programming languages such as Java and programming paradigms such as OOP, and Functional Programming.
             After I graduated, I learned to make a website using React and Next.js. So, this is what I can do.
           </p>

@@ -21,6 +21,7 @@ const ContactMe = () => {
             </Link>
             <Link
               to="https://github.com/rizkimaula"
+              target="_blank"
               className="btn"
             >
               Github
