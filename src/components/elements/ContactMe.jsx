@@ -29,14 +29,14 @@ const ContactMe = () => {
           </div>
         </div>
         <div className="p-10 flex flex-col gap-5">
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
             {' '}
             <label className="input input-bordered flex items-center gap-2">
               Name
               <input
                 type="text"
                 className="grow"
-                placeholder="Daisy"
+                placeholder="Your Name"
               />
             </label>
             <label className="input input-bordered flex items-center gap-2">
@@ -44,7 +44,7 @@ const ContactMe = () => {
               <input
                 type="text"
                 className="grow"
-                placeholder="daisy@site.com"
+                placeholder="example@site.com"
               />
             </label>
           </div>
