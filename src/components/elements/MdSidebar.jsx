@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router';
 import useTheme from '../../hooks/useTheme';
 
-// eslint-disable-next-line react/prop-types
 const MdSidebar = () => {
   const [theme, setTheme] = useTheme();
 
@@ -15,7 +14,7 @@ const MdSidebar = () => {
   return (
     <div className={`flex-col justify-between hidden min-h-screen px-4 py-3 md:flex text-primary bg-base-300`}>
       <>
-        <h1 className="text-3xl text-bold ">RM</h1>
+        <h1 className="text-3xl text-bold">RM</h1>
 
         <ul className="w-full menu rounded-box ">
           <li className="py-2 text-left">
@@ -72,7 +71,7 @@ const MdSidebar = () => {
             >
               <button
                 onClick={() => {
-                  window.open('https://twitter.com/rizkima666', '_blank');
+                  window.open('https://x.com/rizkima666', '_blank');
                 }}
                 className="btn btn-circle"
               >
