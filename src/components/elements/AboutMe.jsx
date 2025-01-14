@@ -19,7 +19,8 @@ const AboutMe = () => {
             <span className="font-bold text-primary">Web Developer</span> based in <span className="font-bold text-primary">Jakarta</span>
           </h1>
           <Link
-            to={'#'}
+            to={'https://drive.google.com/file/d/1o3nWNJdw1T9fZPKTZ3-YtN46ljMKti1-/view?usp=sharing'}
+            target="_blank"
             className="btn hover:bg-primary hover:text-white"
           >
             Download CV <FontAwesomeIcon icon={faDownload} />

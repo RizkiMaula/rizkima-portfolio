@@ -4,8 +4,8 @@ import { Link } from 'react-router';
 
 const ContactMe = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
-      <div className="hero-content flex-col lg:flex-row">
+    <div className="min-h-screen hero bg-base-200">
+      <div className="flex-col hero-content lg:flex-row">
         <div className="flex flex-col gap-6 p-6 shadow rounded-2xl bg-base-200 text-tertiary">
           <h1 className="text-3xl font-bold">REACH ME OUT</h1>
           <p>Jakarta, Indonesia</p>
@@ -14,7 +14,8 @@ const ContactMe = () => {
           </h1>
           <div className="flex justify-center gap-2 ">
             <Link
-              to="/"
+              to="https://www.linkedin.com/in/rizkimaulana892/"
+              target="_blank"
               className="btn"
             >
               LinkedIn
@@ -28,10 +29,10 @@ const ContactMe = () => {
             </Link>
           </div>
         </div>
-        <div className="p-10 flex flex-col gap-5">
-          <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col gap-5 p-10">
+          <div className="flex flex-col gap-4 md:flex-row">
             {' '}
-            <label className="input input-bordered flex items-center gap-2">
+            <label className="flex items-center gap-2 input input-bordered">
               Name
               <input
                 type="text"
@@ -39,7 +40,7 @@ const ContactMe = () => {
                 placeholder="Your Name"
               />
             </label>
-            <label className="input input-bordered flex items-center gap-2">
+            <label className="flex items-center gap-2 input input-bordered">
               Email
               <input
                 type="text"
@@ -50,7 +51,7 @@ const ContactMe = () => {
           </div>
           <textarea
             placeholder="Write Message Here"
-            className="textarea textarea-bordered textarea-lg w-full"
+            className="w-full textarea textarea-bordered textarea-lg"
           ></textarea>
           <button className="btn btn-primary">Submit</button>
         </div>
