@@ -113,7 +113,7 @@ const MdSidebar = () => {
             </button>
             <button
               onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
-              className="btn btn-circle"
+              className="hidden btn btn-circle"
             >
               <FontAwesomeIcon icon={faGithub} />
             </button>
@@ -122,7 +122,7 @@ const MdSidebar = () => {
           <p className="text-sm text-center">
             Made with ❤️ by{' '}
             <Link
-              to="https://daisyui.com/"
+              to="https://https://www.linkedin.com/in/rizkimaulana892"
               target="_blank"
               className="link link-hover"
             >
@@ -136,6 +136,7 @@ const MdSidebar = () => {
             >
               Daisy UI
             </Link>
+            . All Rights Reserved
           </p>
         </div>
       </>

@@ -25,7 +25,7 @@ const Hamburger = () => {
       >
         <div className="modal-box">
           <form method="dialog">
-            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+            <button className="absolute btn btn-sm btn-circle btn-ghost right-2 top-2">✕</button>
           </form>
           <h3 className="text-lg font-bold">Menu</h3>
           <ul className="w-full menu rounded-box ">
@@ -123,12 +123,6 @@ const Hamburger = () => {
               className="btn btn-circle"
             >
               {theme === 'light' ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
-            </button>
-            <button
-              onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
-              className="btn btn-circle"
-            >
-              <FontAwesomeIcon icon={faGithub} />
             </button>
           </div>
         </div>

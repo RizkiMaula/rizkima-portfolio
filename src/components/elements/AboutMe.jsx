@@ -2,6 +2,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope, faLocationDot, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router';
+import profile from '../../assets/profile.jpg';
 
 const AboutMe = () => {
   return (
@@ -10,8 +11,9 @@ const AboutMe = () => {
         {/* img */}
         <div className="flex flex-col w-[50%] gap-4 p-4 text-center">
           <img
-            src="https://images.unsplash.com/photo-1725126210190-497eb2cfb6cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="object-cover w-full rounded shadow-2xl h-[289px]"
+            src={profile}
+            // src="https://images.unsplash.com/photo-1725126210190-497eb2cfb6cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="object-cover rounded shadow-2xl "
             alt="Rizki Maulana"
           />
           <h1 className="text-2xl font-bold text-primary">Rizki Maulana</h1>

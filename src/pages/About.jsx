@@ -8,6 +8,7 @@ const About = () => {
       content={
         <>
           <AboutMe />
+          <div className="divider bg-base-200"></div>
           <Education />
         </>
       }

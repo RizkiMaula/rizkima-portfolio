@@ -18,7 +18,7 @@ const PortfolioContent = () => {
               <div className="badge badge-neutral">React.js</div>
               <div className="badge badge-neutral">TailwindCSS</div>
               <div className="badge badge-neutral">Axios</div>
-              <div className="badge badge-neutral">React Redux</div>
+              <div className="badge badge-neutral">Redux</div>
             </div>
           }
         />
