@@ -14,7 +14,7 @@ const PortfolioContent = () => {
           title="Gempor Travel Website"
           description="This site is a travel website. Made by React.js, Tailwindcss, Material Tailwind Framework and with API from DibimbingAPI. The site is responsive and has a dark mode. This site is My Final Project for the Front-End Web Developer Bootcamp at Dibimbing.id and get score 80."
           stacks={
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               <div className="badge badge-neutral">React.js</div>
               <div className="badge badge-neutral">TailwindCSS</div>
               <div className="badge badge-neutral">Axios</div>
