@@ -28,7 +28,7 @@ const PortfolioContent = () => {
           title="Foodie Doodie"
           description="This site is a food list from DibimbingAPI. This site is one of my assignments for the Front-End Web Developer Bootcamp at Dibimbing.id. The site made by Next.js and it has two ways rendering, Client Side Rendering (CSR) and Server Side Rendering (SSR) for comparison."
           stacks={
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               <div className="badge badge-neutral">Next.js</div>
               <div className="badge badge-neutral">TailwindCSS</div>
               <div className="badge badge-neutral">Axios</div>
@@ -41,7 +41,7 @@ const PortfolioContent = () => {
           title="Soto Ayam Bu Karti"
           description="This site is a restaurant website. This site is one of my assignments for the Front-End Web Developer Bootcamp at Dibimbing.id. This site is my first project using TailwindCSS."
           stacks={
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               <div className="badge badge-neutral">HTML</div>
               <div className="badge badge-neutral">CSS</div>
               <div className="badge badge-neutral">TailwindCSS</div>
