@@ -122,7 +122,7 @@ const MdSidebar = () => {
           <p className="text-sm text-center">
             Made with ❤️ by{' '}
             <Link
-              to="https://https://www.linkedin.com/in/rizkimaulana892"
+              to="https://www.linkedin.com/in/rizkimaulana892"
               target="_blank"
               className="link link-hover"
             >

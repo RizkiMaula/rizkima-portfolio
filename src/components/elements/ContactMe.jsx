@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const ContactMe = () => {
   return (
     <div className="min-h-screen hero bg-base-200">
-      <div className="flex-col hero-content lg:flex-row">
+      <div className="flex-col border-2 border-black hero-content lg:flex-row ">
         <div className="flex flex-col gap-6 p-6 shadow rounded-2xl bg-base-200 text-tertiary">
           <h1 className="text-3xl font-bold">REACH ME OUT</h1>
           <p>Jakarta, Indonesia</p>
