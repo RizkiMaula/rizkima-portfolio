@@ -12,7 +12,6 @@ const AboutMe = () => {
         <div className="flex flex-col w-[50%] gap-4 p-4 text-center">
           <img
             src={profile}
-            // src="https://images.unsplash.com/photo-1725126210190-497eb2cfb6cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="object-cover rounded shadow-2xl "
             alt="Rizki Maulana"
           />
@@ -23,7 +22,7 @@ const AboutMe = () => {
           <Link
             to={'https://drive.google.com/file/d/1o3nWNJdw1T9fZPKTZ3-YtN46ljMKti1-/view?usp=sharing'}
             target="_blank"
-            className="btn hover:bg-primary hover:text-white"
+            className="text-sm md:text-lg btn hover:bg-primary hover:text-white"
           >
             Download CV <FontAwesomeIcon icon={faDownload} />
           </Link>
