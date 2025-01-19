@@ -4,9 +4,9 @@ import { Link } from 'react-router';
 
 const ContactMe = () => {
   return (
-    <div className="min-h-screen hero bg-base-200">
-      <div className="flex-col w-full border-2 border-black hero-content lg:flex-row">
-        <div className="flex flex-col gap-6 p-6 shadow rounded-2xl bg-base-200 text-tertiary">
+    <div className="h-screen hero bg-base-200">
+      <div className="flex flex-col border-2 border-black hero-conten lg:flex-row">
+        <div className="flex flex-col gap-6 p-6 border-2 border-red-500 shadow rounded-2xl bg-base-200 text-tertiary">
           <h1 className="text-3xl font-bold">REACH ME OUT</h1>
           <p>Jakarta, Indonesia</p>
           <h1>
@@ -29,7 +29,7 @@ const ContactMe = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-5 p-10">
+        <div className="flex flex-col gap-5 p-10 border-2 border-blue-500 shadow rounded-2xl bg-base-200">
           <div className="flex flex-col gap-4 md:flex-row">
             {' '}
             <label className="flex items-center gap-2 input input-bordered">
