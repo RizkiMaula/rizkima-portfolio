@@ -22,7 +22,7 @@ const AboutMe = () => {
           <Link
             to={'https://drive.google.com/file/d/1o3nWNJdw1T9fZPKTZ3-YtN46ljMKti1-/view?usp=sharing'}
             target="_blank"
-            className="text-sm md:text-lg btn hover:bg-primary hover:text-white"
+            className="text-xs md:text-lg btn hover:bg-primary hover:text-white"
           >
             Download CV <FontAwesomeIcon icon={faDownload} />
           </Link>
