@@ -29,7 +29,7 @@ const ContactMe = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-5 p-10 border-2 border-blue-500 shadow rounded-2xl bg-base-200">
+      <div className="flex flex-col gap-5 p-6 border-2 border-blue-500 shadow rounded-2xl bg-base-200">
         <div className="flex flex-col gap-4 md:flex-row">
           {' '}
           <label className="flex items-center gap-2 input input-bordered">
