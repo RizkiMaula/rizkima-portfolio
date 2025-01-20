@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 
 const ContactMe = () => {
   return (
-    // <div className="min-h-screen bg-base-200">
     <div className="flex flex-col items-center justify-center lg:flex-row min-h-screen bg-base-200">
       <div className="flex flex-col gap-5 p-4 shadow rounded-2xl bg-base-200 text-tertiary">
         <h1 className="text-3xl font-bold">REACH ME OUT</h1>
@@ -56,7 +55,6 @@ const ContactMe = () => {
         <button className="btn btn-primary">Submit</button>
       </div>
     </div>
-    // </div>
   );
 };
 
