@@ -54,16 +54,12 @@ const AboutMe = () => {
             <div className="flex flex-col gap-2 p-3">
               <h1 className="font-bold text-primary">Introduction</h1>
               <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eaque perspiciatis debitis doloremque ipsum deleniti aut tempora. Ut dignissimos doloremque voluptas nisi natus a consectetur. Dignissimos optio eaque dolores
-                quae ad.
+                Hi, I&apos;m Rizki Maulana, a computer science graduate from Universitas Indraprasta PGRI and recent graduate Frontend web Developer from Dibimbing.id Bootcamp. I&apos;m passionate about web development.
               </p>
             </div>
             <div className="flex flex-col gap-2 p-3 ">
               <h1 className="font-bold text-primary">5+ Projects Completed</h1>
-              <p className="text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nihil, vel dolor vitae iste, id cum commodi laudantium earum provident soluta architecto, voluptas natus velit ut beatae qui! Incidunt sapiente exercitationem
-                animi.
-              </p>
+              <p className="text-justify">Since I learned programming, I have completed 5+ projects that I have worked on. I have completed 5+ projects that I have worked on. </p>
             </div>
           </div>
         </div>

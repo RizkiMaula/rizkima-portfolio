@@ -12,7 +12,7 @@ const DoContent = () => {
             />
             <div className="text-xl font-medium collapse-title">Build a Functional Website</div>
             <div className="collapse-content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, sequi illum molestias quisquam voluptate possimus ut accusantium officia consequatur corrupti nisi.</p>
+              <p>Make your website functional and responsive for your brand and your audience.</p>
             </div>
           </div>
           <div className="collapse collapse-arrow bg-base-200">
@@ -22,7 +22,7 @@ const DoContent = () => {
             />
             <div className="text-xl font-medium collapse-title">Build a Simple Website</div>
             <div className="collapse-content">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ex, eveniet, obcaecati reprehenderit, similique repudiandae in vitae perspiciatis odio cumque ad?</p>
+              <p>Make a simple website for personal or business purpose.</p>
             </div>
           </div>
           <div className="collapse collapse-arrow bg-base-200">
@@ -32,7 +32,7 @@ const DoContent = () => {
             />
             <div className="text-xl font-medium collapse-title">Build a Simple Java Application</div>
             <div className="collapse-content">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ex, eveniet, obcaecati reprehenderit, similique repudiandae in vitae perspiciatis odio cumque ad?</p>
+              <p>Make a simple java application for your business.</p>
             </div>
           </div>
         </div>
@@ -45,7 +45,6 @@ const DoContent = () => {
                 alt="Javascript"
                 className="w-12 h-12"
               />
-              <p className="text-center">Javascript</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -53,7 +52,6 @@ const DoContent = () => {
                 alt="Javascript"
                 className="w-12 h-12"
               />
-              <p className="text-center">Tailwind</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -61,7 +59,6 @@ const DoContent = () => {
                 alt="Javascript"
                 className="w-12 h-12"
               />
-              <p className="text-center">React.js</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -69,7 +66,6 @@ const DoContent = () => {
                 alt="Javascript"
                 className="w-12 h-12"
               />
-              <p className="text-center">Next.js</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -77,7 +73,6 @@ const DoContent = () => {
                 alt="Java"
                 className="w-12 h-12"
               />
-              <p className="text-center">Java</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -85,7 +80,6 @@ const DoContent = () => {
                 alt="PHP"
                 className="w-12 h-12"
               />
-              <p className="text-center">PHP</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -93,7 +87,6 @@ const DoContent = () => {
                 alt="Java"
                 className="w-12 h-12"
               />
-              <p className="text-center">MySQL</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
               <img
@@ -101,7 +94,6 @@ const DoContent = () => {
                 alt="Java"
                 className="w-12 h-12"
               />
-              <p className="text-center">Github</p>
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@ import Card from '../fragments/Card';
 import port1 from '../../assets/gempor.jpg';
 import port2 from '../../assets/foodie.jpg';
 import port3 from '../../assets/soto.jpg';
+import port4 from '../../assets/juned.jpg';
+import port5 from '../../assets/saw.jpg';
 
 const PortfolioContent = () => {
   return (
@@ -50,20 +52,30 @@ const PortfolioContent = () => {
           }
         />
         <Card
-          directLink="https://github.com/rizkimaula"
-          img="https://robocuts.com/wp-content/uploads/2012/01/blog-im-1100x500.jpg"
+          directLink="https://github.com/RizkiMaula/AplikasiSAW-Toko-Puri-Indah"
+          img={port5}
+          title="Sistem Pengambilan Keputusan Simple Additive Weighting (SAW) Toko Puri Indah"
+          description='This app is made by Java and MySQL. The app is a simple app to make a decision for a store called "Puri Indah". It has 2 access level, "Admin" and "Stakeholder". The "Admin" has a role to manage employee and recruitment data in the database. and the "Stakeholder" has a role to make a decision. This app is for the final project of the subject "Sistem Pendukung Keputusan Penerimaan Karyawan Menggunakan Metode Simple Additive Weighting Pada Toko Puri Indah".'
+          stacks={
+            <div className="flex flex-wrap gap-2">
+              <div className="badge badge-neutral">Java</div>
+              <div className="badge badge-neutral">MySQL</div>
+            </div>
+          }
+          linkText="Visit Repository"
         />
         <Card
-          directLink="https://github.com/rizkimaula"
-          img="https://robocuts.com/wp-content/uploads/2012/01/blog-im-1100x500.jpg"
-        />
-        <Card
-          directLink="https://github.com/rizkimaula"
-          img="https://robocuts.com/wp-content/uploads/2012/01/blog-im-1100x500.jpg"
-        />
-        <Card
-          directLink="https://github.com/rizkimaula"
-          img="https://robocuts.com/wp-content/uploads/2012/01/blog-im-1100x500.jpg"
+          directLink="https://rizkimaula.github.io/first-project/"
+          img={port4}
+          title="Kopi Mang Juned Website"
+          description="This is my first ever project in 2020. This site is a cafe website. This site is my first project using HTML, CSS, and Javascript."
+          stacks={
+            <div className="flex flex-wrap gap-2">
+              <div className="badge badge-neutral">HTML</div>
+              <div className="badge badge-neutral">CSS</div>
+              <div className="badge badge-neutral">Javascript</div>
+            </div>
+          }
         />
       </div>
     </div>
