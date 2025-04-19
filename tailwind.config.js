@@ -8,7 +8,6 @@ export default {
       ibm: ['IBM Plex Sans', 'sans-serif'],
     },
   },
-
   daisyui: {
     themes: ['light', 'dark', 'cupcake', 'cyberpunk'],
   },
