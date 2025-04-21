@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Do from './pages/Do';
+import OnePage from './pages/OnePage';
 
 const root = document.getElementById('root');
 
@@ -17,6 +18,10 @@ ReactDOM.createRoot(root).render(
       <Route
         path="/"
         element={<Home />}
+      />
+      <Route
+        path="/one-page"
+        element={<OnePage />}
       />
       <Route
         path="*"

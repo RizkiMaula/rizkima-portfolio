@@ -1,7 +1,8 @@
-import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faInfoCircle, faList, faMoon, faQuestionCircle, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router';
+// import { Link } from 'react-router';
+import { Link } from 'react-scroll';
 import useTheme from '../../hooks/useTheme';
 
 const MdSidebar = () => {
@@ -18,7 +19,11 @@ const MdSidebar = () => {
 
         <ul className="w-full menu rounded-box ">
           <li className="py-2 text-left">
-            <Link to={'/'}>
+            <Link
+              to="about-me"
+              smooth
+              duration={500}
+            >
               <FontAwesomeIcon
                 className="w-5 h-5"
                 icon={faHome}
@@ -27,7 +32,11 @@ const MdSidebar = () => {
             </Link>
           </li>
           <li className="py-2 text-left">
-            <Link to={'/about'}>
+            <Link
+              to="about-me"
+              smooth
+              duration={500}
+            >
               <FontAwesomeIcon
                 className="w-5 h-5"
                 icon={faInfoCircle}
@@ -36,7 +45,11 @@ const MdSidebar = () => {
             </Link>
           </li>
           <li className="py-2 text-left">
-            <Link to={'/what-can-i-do'}>
+            <Link
+              to="do-content"
+              smooth
+              duration={500}
+            >
               <FontAwesomeIcon
                 className="w-5 h-5"
                 icon={faQuestionCircle}
@@ -45,7 +58,11 @@ const MdSidebar = () => {
             </Link>
           </li>
           <li className="py-2 text-left">
-            <Link to={'/portfolio'}>
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+            >
               <FontAwesomeIcon
                 className="w-5 h-5"
                 icon={faList}
@@ -54,7 +71,11 @@ const MdSidebar = () => {
             </Link>
           </li>
           <li className="py-2 text-left">
-            <Link to={'/contact'}>
+            <Link
+              to="contact-me"
+              smooth
+              duration={500}
+            >
               <FontAwesomeIcon
                 className="w-5 h-5"
                 icon={faEnvelope}
@@ -100,6 +121,17 @@ const MdSidebar = () => {
                 className="btn btn-circle"
               >
                 <FontAwesomeIcon icon={faGithub} />
+              </button>
+            </div>
+            <div
+              className="tooltip"
+              data-tip="Whatsapp"
+            >
+              <button
+                onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
+                className="btn btn-circle"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} />
               </button>
             </div>
           </div>
