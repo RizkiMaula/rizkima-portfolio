@@ -1,4 +1,4 @@
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope, faLocationDot, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router';
@@ -34,16 +34,17 @@ const AboutMe = () => {
             <Link
               target="_blank"
               to={'https://wa.me/6281807963356'}
-              className="text-primary hover:font-bold"
+              className="text-primary hover:text-white"
             >
               <FontAwesomeIcon icon={faWhatsapp} /> +62 818-0796-3356
             </Link>
-            <h1 className="text-primary">
-              <FontAwesomeIcon icon={faEnvelope} /> rmaulana12321@gmail.com
-            </h1>
-            <h1 className="text-primary">
-              <FontAwesomeIcon icon={faUser} /> 24 years old
-            </h1>
+            <Link
+              target="_blank"
+              to={'https://github.com/rizkimaula'}
+              className="text-primary hover:text-white"
+            >
+              <FontAwesomeIcon icon={faGithub} /> github.com/rizkimaula
+            </Link>
             <h1 className="text-primary">
               <FontAwesomeIcon icon={faLocationDot} /> Jakarta, Indonesia
             </h1>
