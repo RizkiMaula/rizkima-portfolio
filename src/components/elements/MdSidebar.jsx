@@ -85,7 +85,7 @@ const MdSidebar = () => {
           </li>
         </ul>
         <div>
-          <div className="flex justify-center w-full gap-4">
+          {/* <div className="flex justify-center w-full gap-4">
             <div
               className="tooltip"
               data-tip="X"
@@ -134,7 +134,7 @@ const MdSidebar = () => {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </button>
             </div>
-          </div>
+          </div> */}
           <div className="divider"></div>
           <div className="flex justify-center gap-2">
             <button
