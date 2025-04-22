@@ -4,55 +4,31 @@ import { Link } from 'react-router';
 
 const ContactMe = () => {
   return (
-    <div className="flex flex-col items-center justify-center lg:flex-row min-h-screen bg-base-200">
-      <div className="flex flex-col gap-5 p-4 shadow rounded-2xl bg-base-200 text-tertiary">
-        <h1 className="text-3xl font-bold">REACH ME OUT</h1>
-        <p>Jakarta, Indonesia</p>
-        <h1>
-          <FontAwesomeIcon icon={faEnvelope} /> Rmaulana12321@gmail.com
-        </h1>
-        <div className="flex justify-center gap-2 ">
-          <Link
-            to="https://www.linkedin.com/in/rizkimaulana892/"
-            target="_blank"
-            className="btn"
-          >
-            LinkedIn
-          </Link>
-          <Link
-            to="https://github.com/rizkimaula"
-            target="_blank"
-            className="btn"
-          >
-            Github
-          </Link>
-        </div>
-      </div>
-      <div className="flex flex-col gap-5 p-4 shadow rounded-2xl bg-base-200">
-        <div className="flex flex-col gap-4 md:flex-row">
-          {' '}
-          <label className="flex items-center gap-2 input input-bordered">
-            Name
-            <input
-              type="text"
-              className="grow"
-              placeholder="Your Name"
-            />
-          </label>
-          <label className="flex items-center gap-2 input input-bordered">
-            Email
-            <input
-              type="text"
-              className="grow"
-              placeholder="example@site.com"
-            />
-          </label>
-        </div>
-        <textarea
-          placeholder="Write Message Here"
-          className="w-full textarea textarea-bordered textarea-lg"
-        ></textarea>
-        <button className="btn btn-primary">Submit</button>
+    <div className="flex flex-col items-center gap-2 p-8 bg-base-200">
+      <h1 className="text-2xl font-bold text-primary">Contact Me</h1>
+      <p>For any inquiries, please don&apos;t hesitate to contact me using the link below.</p>
+      <div className="flex gap-2 border-2 border-black">
+        <Link
+          target="_blank"
+          onClick={() => window.open('mailto:rmaulana12321@gmail.com')}
+          className="btn btn-primary hover:bg-secondary hover:text-white"
+        >
+          <FontAwesomeIcon icon={faEnvelope} /> Mail Me
+        </Link>
+        <Link
+          target="_blank"
+          to="https://instagram.com"
+          className="btn btn-primary hover:bg-secondary hover:text-white"
+        >
+          <FontAwesomeIcon icon={faEnvelope} /> Contact Me
+        </Link>
+        <Link
+          target="_blank"
+          to="https://instagram.com"
+          className="btn btn-primary hover:bg-secondary hover:text-white"
+        >
+          <FontAwesomeIcon icon={faEnvelope} /> Contact Me
+        </Link>
       </div>
     </div>
   );
