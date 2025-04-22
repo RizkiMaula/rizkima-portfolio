@@ -1,5 +1,5 @@
 import { faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faDownload, faEnvelope, faLocationDot, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router';
 import profile from '../../assets/profile.jpg';

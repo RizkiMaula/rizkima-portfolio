@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faInfoCircle, faList, faMoon, faQuestionCircle, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { Link } from 'react-router';

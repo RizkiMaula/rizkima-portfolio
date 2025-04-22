@@ -25,6 +25,20 @@ const PortfolioContent = () => {
           }
         />
         <Card
+          directLink="https://gempor-travel.vercel.app/"
+          img={port1}
+          title="Gempor Travel Website"
+          description="This site is a travel website. Made by React.js, Tailwindcss, Material Tailwind Framework and with API from DibimbingAPI. The site is responsive and has a dark mode. This site is My Final Project for the Front-End Web Developer Bootcamp at Dibimbing.id and get score 80."
+          stacks={
+            <div className="flex flex-wrap gap-2">
+              <div className="badge badge-neutral">React.js</div>
+              <div className="badge badge-neutral">TailwindCSS</div>
+              <div className="badge badge-neutral">Axios</div>
+              <div className="badge badge-neutral">Redux</div>
+            </div>
+          }
+        />
+        <Card
           directLink="https://foodie-doodie.vercel.app/"
           img={port2}
           title="Foodie Doodie"

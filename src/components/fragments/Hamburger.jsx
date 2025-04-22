@@ -1,8 +1,7 @@
 import { faBars, faEnvelope, faHome, faInfoCircle, faList, faMoon, faQuestionCircle, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router';
+import { Link } from 'react-scroll';
 import useTheme from '../../hooks/useTheme';
-import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Hamburger = () => {
   const [theme, setTheme] = useTheme();
@@ -28,9 +27,14 @@ const Hamburger = () => {
             <button className="absolute btn btn-sm btn-circle btn-ghost right-2 top-2">✕</button>
           </form>
           <h3 className="text-lg font-bold">Menu</h3>
+
           <ul className="w-full menu rounded-box ">
             <li className="py-2 text-left">
-              <Link to={'/'}>
+              <Link
+                to="about-me"
+                smooth
+                duration={500}
+              >
                 <FontAwesomeIcon
                   className="w-5 h-5"
                   icon={faHome}
@@ -39,7 +43,11 @@ const Hamburger = () => {
               </Link>
             </li>
             <li className="py-2 text-left">
-              <Link to={'/about'}>
+              <Link
+                to="about-me"
+                smooth
+                duration={500}
+              >
                 <FontAwesomeIcon
                   className="w-5 h-5"
                   icon={faInfoCircle}
@@ -48,7 +56,11 @@ const Hamburger = () => {
               </Link>
             </li>
             <li className="py-2 text-left">
-              <Link to={'/what-can-i-do'}>
+              <Link
+                to="do-content"
+                smooth
+                duration={500}
+              >
                 <FontAwesomeIcon
                   className="w-5 h-5"
                   icon={faQuestionCircle}
@@ -57,7 +69,11 @@ const Hamburger = () => {
               </Link>
             </li>
             <li className="py-2 text-left">
-              <Link to={'/portfolio'}>
+              <Link
+                to="portfolio"
+                smooth
+                duration={500}
+              >
                 <FontAwesomeIcon
                   className="w-5 h-5"
                   icon={faList}
@@ -66,7 +82,11 @@ const Hamburger = () => {
               </Link>
             </li>
             <li className="py-2 text-left">
-              <Link to={'/contact'}>
+              <Link
+                to="contact-me"
+                smooth
+                duration={500}
+              >
                 <FontAwesomeIcon
                   className="w-5 h-5"
                   icon={faEnvelope}
@@ -76,55 +96,13 @@ const Hamburger = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <div className="flex justify-center w-full gap-4 b">
-            <div
-              className="tooltip"
-              data-tip="X"
-            >
-              <button
-                onClick={() => {
-                  window.open('https://x.com/rizkima666', '_blank');
-                }}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faXTwitter} />
-              </button>
-            </div>
-            <div
-              className="tooltip"
-              data-tip="LinkedIn"
-            >
-              <button
-                onClick={() => {
-                  window.open('https://www.linkedin.com/in/rizkimaulana892/', '_blank');
-                }}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </button>
-            </div>
-            <div
-              className="tooltip"
-              data-tip="Github"
-            >
-              <button
-                onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-              </button>
-            </div>
-          </div>
-          <div className="divider"></div>
-          <div className="flex justify-center gap-2">
-            <button
-              onClick={() => toggleTheme()}
-              className="btn btn-circle"
-            >
-              {theme === 'light' ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
-            </button>
-          </div>
+        <div className="flex justify-center gap-2">
+          <button
+            onClick={() => toggleTheme()}
+            className="btn btn-circle"
+          >
+            {theme === 'light' ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
+          </button>
         </div>
       </dialog>
     </div>
