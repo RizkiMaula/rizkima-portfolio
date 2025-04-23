@@ -85,56 +85,6 @@ const MdSidebar = () => {
           </li>
         </ul>
         <div>
-          {/* <div className="flex justify-center w-full gap-4">
-            <div
-              className="tooltip"
-              data-tip="X"
-            >
-              <button
-                onClick={() => {
-                  window.open('https://x.com/rizkima666', '_blank');
-                }}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faXTwitter} />
-              </button>
-            </div>
-            <div
-              className="tooltip"
-              data-tip="LinkedIn"
-            >
-              <button
-                onClick={() => {
-                  window.open('https://www.linkedin.com/in/rizkimaulana892/', '_blank');
-                }}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </button>
-            </div>
-            <div
-              className="tooltip"
-              data-tip="Github"
-            >
-              <button
-                onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-              </button>
-            </div>
-            <div
-              className="tooltip"
-              data-tip="Whatsapp"
-            >
-              <button
-                onClick={() => window.open('https://github.com/rizkimaula', '_blank')}
-                className="btn btn-circle"
-              >
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </button>
-            </div>
-          </div> */}
           <div className="divider"></div>
           <div className="flex justify-center gap-2">
             <button
