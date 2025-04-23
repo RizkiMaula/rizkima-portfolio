@@ -4,6 +4,7 @@ import port2 from '../../assets/foodie.jpg';
 import port3 from '../../assets/soto.jpg';
 import port4 from '../../assets/juned.jpg';
 import port5 from '../../assets/saw.jpg';
+import port6 from '../../assets/daisynateur.jpg';
 
 const PortfolioContent = () => {
   return (
@@ -11,16 +12,16 @@ const PortfolioContent = () => {
       <h1 className="p-4 text-2xl font-bold text-primary">Portfolio</h1>
       <div className="grid grid-cols-1 gap-[1rem]  p-4 ">
         <Card
-          directLink="https://gempor-travel.vercel.app/"
-          img={port1}
+          directLink="https://daisynateur.vercel.app/"
+          img={port6}
           title="Gempor Travel Website"
-          description="This site is a travel website. Made by React.js, Tailwindcss, Material Tailwind Framework and with API from DibimbingAPI. The site is responsive and has a dark mode. This site is My Final Project for the Front-End Web Developer Bootcamp at Dibimbing.id and get score 80."
+          description="This site is a fanpage for Daisynateur, JKT48 member named Daisy. Made by React.js, Next.js, Tailwindcss, DaisyUI Framework. This site is My Final Project for the Front-End Web Developer Bootcamp at Dibimbing.id and get score 80."
           stacks={
             <div className="flex flex-wrap gap-2">
               <div className="badge badge-neutral">React.js</div>
+              <div className="badge badge-neutral">Next.js</div>
               <div className="badge badge-neutral">TailwindCSS</div>
-              <div className="badge badge-neutral">Axios</div>
-              <div className="badge badge-neutral">Redux</div>
+              <div className="badge badge-neutral">DaisyUI</div>
             </div>
           }
         />
