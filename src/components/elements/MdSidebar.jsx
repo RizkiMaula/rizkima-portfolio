@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faHome, faInfoCircle, faList, faMoon, faQuestionCircle, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faGraduationCap, faHome, faList, faMoon, faQuestionCircle, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { Link } from 'react-router';
 import { Link } from 'react-scroll';
@@ -33,15 +33,15 @@ const MdSidebar = () => {
           </li>
           <li className="py-2 text-left">
             <Link
-              to="about-me"
+              to="education"
               smooth
               duration={500}
             >
               <FontAwesomeIcon
                 className="w-5 h-5"
-                icon={faInfoCircle}
+                icon={faGraduationCap}
               />
-              About
+              Education
             </Link>
           </li>
           <li className="py-2 text-left">

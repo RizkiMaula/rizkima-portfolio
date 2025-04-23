@@ -9,10 +9,10 @@ const AboutMe = () => {
     <div className="min-h-screen hero bg-base-200">
       <div className="flex-col gap-3 hero-content lg:flex-row">
         {/* img */}
-        <div className="flex flex-col w-[50%] gap-4 p-4 text-center">
+        <div className="flex flex-col items-center justify-center w-[50%] gap-4 p-4  text-center">
           <img
             src={profile}
-            className="object-cover rounded shadow-2xl "
+            className="object-cover w-40 rounded shadow-2xl h-w-40"
             alt="Rizki Maulana"
           />
           <h1 className="text-2xl font-bold text-primary">Rizki Maulana</h1>
